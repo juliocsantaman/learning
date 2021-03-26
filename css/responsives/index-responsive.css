@@ -23,6 +23,18 @@ No media query for `xs` since this is the default in Bootstrap
     .answers {
         flex-direction: row;
     }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: start;
+    }
+    
+    nav ul li {
+        list-style: none;
+        margin-left: 3rem;
+    }
+
+    
  }
 
 /* X-Large devices (large desktops, 1200px and up) */

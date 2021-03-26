@@ -19,12 +19,14 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul li {
     list-style: none;
-    margin-left: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 nav ul li a {
@@ -49,6 +51,7 @@ main {
     width: 70%;
     line-height: 2rem;
     font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 .info img {
@@ -58,7 +61,6 @@ main {
 .answers {
     width: 30%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-left: 1rem;
