@@ -1,0 +1,82 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 70%;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.info img {
+    width: 100%;
+}
+
+.answers {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    border-left: .5px solid #f0f0f0;
+    border-top: .5px solid #f0f0f0;
+    padding: 1rem;
+}
+
+.answers a, .btn-submit {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 70%;
+    text-align: center;
+}
+
+.answers a:hover, .btn-submit:hover {
+    opacity: 0.8;
+}
+
+.btn-submit {
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.answers .a1, .a2, .a3, .a4 {
+    margin-bottom: 1rem;
+}
+
+.btn-show-explanation {
+    border: none;
+    border: 1px solid silver;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    background: transparent;
+    color: rgba(0,0,0,.7);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.btn-show-explanation:hover {
+    border: 1px solid #000000;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    visibility: visible;
+}
+
+.correct-msg {
+
+}
+
+.incorrect-msg {
+
+}
+

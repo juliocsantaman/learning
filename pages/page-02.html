@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/page-02.css">
+    <link rel="stylesheet" href="../css/responsives/page-02-responsive.css">
+    <title>Learning</title>
+</head>
+
+<body>
+    <header>
+        <h1>BRILLIANT</h1>
+    </header>
+    <main>
+        <div class="info">
+            <p>
+                One of the ways computers make decisions is with a decision tree. Decision trees encode a series of
+                simple yes-or-no questions that you can follow to answer a more complex question.
+
+                Here’s a simple face recognizer:
+            </p>
+            <img src="../images/02.png" alt="">
+            <p>
+                Which of the listed faces will require the computer to ask the most questions?
+            </p>
+
+            <div class="show-explanation hidden" id="show-explanation">
+                <h3>Explanation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis beatae doloribus hic
+                    necessitatibus odio quod porro voluptas autem illo sunt. Laboriosam minus molestias necessitatibus
+                    blanditiis accusamus atque placeat magni ducimus.
+                </p>
+            </div>
+        </div>
+
+        <div class="answers">
+
+            <div class="a1">
+                <input type="radio" class="answer" name="answer" id="a1">
+                <label for="a1">Face C</label>
+            </div>
+
+            <div class="a2">
+                <input type="radio" class="answer" name="answer" id="a2">
+                <label for="a2">Face E</label>
+            </div>
+
+            <div class="a3">
+                <input type="radio" class="answer" name="answer" id="a3">
+                <label for="a3">Face G</label>
+            </div>
+
+            <div class="a4">
+                <input type="radio" class="answer" name="answer" id="a4">
+                <label for="a4">Face H</label>
+            </div>
+
+            <p class="msg" id="msg"></p>
+
+            <input id="btn-submit" class="btn-submit" type="submit" value="Submit">
+
+            <button class="btn-show-explanation" id="btn-show-explanation">Show explanation</button>
+
+            <a class="hidden" id="continue" href="#">Continue</a>
+
+            
+        </div>
+    </main>
+
+    <script src="../js/page-02.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 70%;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.info img {
+    width: 100%;
+}
+
+.answers {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: .5px solid #f0f0f0;
+    border-top: .5px solid #f0f0f0;
+    padding: 1rem;
+}
+
+.answers a {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.answers a:hover {
+    opacity: 0.8;
+}
