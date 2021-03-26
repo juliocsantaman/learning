@@ -13,6 +13,7 @@ No media query for `xs` since this is the default in Bootstrap
 @media (min-width: 992px) { 
     .info {
         font-size: 1.5rem;
+        margin-left: 2rem;
     }
 
     .info img {

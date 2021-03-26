@@ -1,3 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    margin-left: 2rem;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    background-color: #E8EFF9;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: start;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #282364;
+}
+
+nav ul li a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    width: 7rem;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -7,6 +49,7 @@ main {
     width: 70%;
     line-height: 2rem;
     font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 .info img {
@@ -25,7 +68,8 @@ main {
 }
 
 .answers a {
-    background-color: #000000;
+    /* background-color: #000000; */
+    background-color: #2DA546;
     color: #FFFFFF;
     text-decoration: none;
     padding: 1rem;
